@@ -3,7 +3,7 @@ Proceso TallerMotos
 	Definir placa, nombrecliente, marcamoto, fechaingreso, fechasalida, observacioncliente, novedad, servicio Como Caracter;
 	
 	Escribir "Taller de Motos El Maquinista";
-	Escribir "¿Qué deseas hacer?";
+	Escribir "Â¿QuÃ© deseas hacer?";
 	Escribir "1. Registrar servicios";
 	Escribir "2. Observaciones del cliente.";
 	Escribir "3. Salir del sistema.";
@@ -24,37 +24,37 @@ Proceso TallerMotos
 			Leer servicio;
 			Escribir "Fecha de salida:";
 			Leer fechasalida;
-			Escribir "¿Hubo alguna novedad? Seleccione un número.";
+			Escribir "Â¿Hubo alguna novedad? Seleccione un nÃºmero.";
 			Escribir "1. Si.";
 			Escribir "2. No.";
 			Leer opcion;
 			
 			Segun opcion Hacer
 				1:
-					Escribir "Por favor desciba la novedad:";
+					Escribir "Por favor describa la novedad:";
 					Leer novedad;
 					Escribir "La novedad: ", novedad, " ha sido guardada correctamente.";
-					Escribir "La motocicleta marca ", marcamoto, " de placa ", placa, " propiedad del sr(a) ", nombrecliente, " que fue ingresada el día ", fechaingreso, ", se le presto el servicio de ", servicio, " y su fecha de salida fue el día ", fechasalida, " con la novedad: ", novedad;
+					Escribir "La motocicleta marca ", marcamoto, " de placa ", placa, " propiedad del sr(a) ", nombrecliente, " que fue ingresada el dÃ­a ", fechaingreso, ", se le presto el servicio de ", servicio, " y su fecha de salida fue el dÃ­a ", fechasalida, " con la novedad: ", novedad;
 
 				2:
 					Escribir "Por favor indique que no hay una novedad";
 					Leer novedad;
-					Escribir "La motocicleta marca ", marcamoto, " de placa ", placa, " propiedad del sr(a) ", nombrecliente, " que fue ingresada el día ", fechaingreso, ", se le presto el servicio de ", servicio, " y su fecha de salida fue el día ", fechasalida, " con la novedad: ", novedad;
+					Escribir "La motocicleta marca ", marcamoto, " de placa ", placa, " propiedad del sr(a) ", nombrecliente, " que fue ingresada el dÃ­a ", fechaingreso, ", se le presto el servicio de ", servicio, " y su fecha de salida fue el dÃ­a ", fechasalida, " con la novedad: ", novedad;
 
 				De Otro Modo:
-					Escribir "Opción inválida.";
+					Escribir "OpciÃ³n invÃ¡lida.";
 
 			FinSegun
 		2:
 			Escribir "Nombre del cliente:";
 			Leer nombrecliente;
 			
-			Escribir "Escriba acá las observaciones del cliente:";
+			Escribir "Escriba acÃ¡ las observaciones del cliente:";
 			Leer observacioncliente;
-			Escribir "La observación: ", observacioncliente, " ha sido guardada, trabajaremos para mejorar nuestro servicio.";
+			Escribir "La observaciÃ³n: ", observacioncliente, " ha sido guardada, trabajaremos para mejorar nuestro servicio.";
 		3:
-			Escribir "Salió exitosamente de la aplicación.";
+			Escribir "SaliÃ³ exitosamente de la aplicaciÃ³n.";
 		De Otro Modo:
-			Escribir "Opción inválida.";
+			Escribir "OpciÃ³n invÃ¡lida.";
 	FinSegun
 FinProceso
