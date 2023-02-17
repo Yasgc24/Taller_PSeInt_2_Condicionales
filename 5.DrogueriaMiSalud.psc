@@ -328,7 +328,7 @@ Proceso DrogueriaMiSalud
 						1:
 							Escribir "El precio de Ensure Probióticos polvo tarro X 900gr es $120.000";
 						2:
-							Escribir "El precio de lucerna 1.5 Kcal Múltiples componentes frasco X 1000ml es $75.000";
+							Escribir "El precio de Glucerna 1.5 Kcal Múltiples componentes frasco X 1000ml es $75.000";
 						3:
 							Escribir "El precio de Ensoy niños Defense Lata X 400gr es $39.000";
 						4:
